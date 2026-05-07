@@ -75,7 +75,7 @@ header p {
 }
 
 nav {
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 
@@ -193,12 +193,14 @@ article p {
 
 ul {
     display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-left: 10px;
+    text-align: justify;
     font-size: 14px;
     padding: 10px;
     list-style-position: inside;
     columns: 2;
-    column-gap: 300px;
-    margin-left: 10px;
     list-style-type: '\2714\00A0\00A0';
 }
 
