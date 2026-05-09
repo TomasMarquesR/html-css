@@ -1,4 +1,6 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 
 :root {
     --font1: Passion One;
@@ -19,37 +21,46 @@ body {
 
 header {
     background-color: black;
-    height: 330px;
+    text-align: center;
+    color: white;
 }
 
 header h1 {
-    padding-top: 40px;
-    color: white;
-    text-align: center;
+    padding-top: 50px;
     font-family: var(--font1);
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header #criador {
     font-family: var(--font3);
-    color: white;
-    text-align: center;
+    padding-bottom: 50px;
 
 }
 
-header a {
+a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-div p {
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
-    padding-top: 108px;
-    padding-bottom: 108px;
+
+}
+
+div p {
+    line-height: 2em;
     font-size: 3.5vw;
     font-family: var(--font2);
-    line-height: 2em;
+    padding-bottom: 2em;
+
 }
 
 #foto1 {
@@ -62,6 +73,10 @@ div p {
     background-position: right center;
 }
 
+section.imagens {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
 .imagens {
     background-size: cover;
     background-attachment: fixed;
@@ -71,10 +86,7 @@ div p {
     display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.520);
-    margin-left: 30px;
     padding: 0px;
-    margin-top: 86px;
-    margin-bottom: 86px;
 }
 
 footer {
@@ -86,10 +98,4 @@ footer p {
     text-align: center;
     padding: 10px;
     font-family: var(--font3);
-}
-
-footer a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
 }
