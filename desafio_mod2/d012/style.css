@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font1: Passion One;
+    --font2: Sriracha;
+    --font3: Verdanam, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1em;
+}
+
+header {
+    background-color: black;
+    height: 330px;
+}
+
+header h1 {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 10vw;
+}
+
+header #criador {
+    font-family: var(--font3);
+    color: white;
+    text-align: center;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+article p {
+    padding-left: 30px;
+    padding-top: 108px;
+    padding-bottom: 108px;
+    font-size: 3.5vw;
+    font-family: var(--font2);
+    line-height: 2em;
+}
+
+#foto1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#foto2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+.imagens {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagens p {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.520);
+    margin-left: 30px;
+    padding: 0px;
+    margin-top: 86px;
+    margin-bottom: 86px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font3);
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
